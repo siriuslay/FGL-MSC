@@ -1,0 +1,9 @@
+sum||Xv-Xv*Wv||_F + alpha*||G-sum(Av*Zv)||_F + beta*||W||_F + lambda*||Wv-Zv||_F + gamma*Tr(F'LF)
+
+Zv = I, A = 1/v, G=sum(Av*Zv)=I , 
+
+① Wv = argmin ||Xv-Xv*Wv||_F + beta*||W||_F + lambda*||Wv-Zv||_F
+② Zv = argmin alpha*||G-sum(Av*Zv)||_F + lambda*||Wv-Zv||_F
+③ G = argmin alpha*||G-sum(Av*Zv)||_F + gamma*Tr(F'LF)
+④ A = argmin alpha*||G-sum(Av*Zv)||_F
+⑤ F = argmin Tr(F'LF)
